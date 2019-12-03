@@ -1,3 +1,17 @@
 .ordinary{
     color: goldenrod; font-size: 23px;
+}     
+.lanselot{
+   font-size: 23px;
+}     
+.one{
+    list-style-image: url(tochka.jpg)
+
 }
+.two{
+    list-style-image: url(simvol.jpg)
+}
+.three{
+    list-style: circle
+}
+
