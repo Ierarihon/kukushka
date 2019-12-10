@@ -1,44 +1,32 @@
 body {
     background: #FFF;
     margin: 0 auto;
-    max-width: 800px;
-    max-height: 800px;
+    max-width: 960px;
+    max-height: 960px;
     font-family: Arial, sans-serif;
     font-size: 14px;
     }
-.cent {
-        float:inherit;
-        margin: 200px;
-        display: block;
-        background: rgba(13, 151, 13, 0.637);
+
+    .verxl, .cent, .nizr{
+        display: inline-block;
         width: 400px;
-        height: 400px;    
+        height: 400px;
     }
-.verxl {
-        float: left;
-        display: block;
-        background: rgba(8, 28, 146, 0.74);
-        width: 500px;
-        height: 500px;    
+
+.verxl {           
+        background: rgb(223, 8, 8);      
     }
-.verxp {
-        float:right;
-        display: block;
-        background: rgba(12, 147, 156, 0.795);
-        width: 300px;
-        height: 300px;    
-    }
-.nizl {
-        float: left;
-        display: block;
-        background: rgba(13, 27, 151, 0.76);
-        width: 300px;
-        height: 300px;    
+.cent {
+        position: relative;
+        left: -250px;
+        top: 150px;        
+        background: rgb(13, 151, 13);
+            
     }
 .nizr {
-        float:right;
-        display: block;
-        background: rgba(3, 46, 3, 0.637);
-        width: 500px;
-        height: 500px;    
+        position: relative;
+        left: 300px;
+        top: -100px;
+        background: rgb(6, 37, 175);  
+        z-index: -1;  
     }

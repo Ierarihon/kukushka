@@ -1,0 +1,48 @@
+body {
+    background: #FFF;
+    margin: 0 auto;
+    max-width: 960px;
+    max-height: 960px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    }
+
+.head{
+    background: rgb(6, 215, 243);
+    margin: 5%;
+    height: 15%;
+    width: 90%;
+    border-radius: 0 0 25px 25px;
+    font-size: 30px;
+}
+.head{
+    background: rgb(6, 215, 243);
+    margin: 5%;
+    height: 15%;
+    width: 90%;
+    border-radius: 0 0 25px 25px;
+}
+.leftbar {
+    background: rgba(211, 211, 211, 0.397);
+    position: left;
+    display: inline-block;
+    height: 600px;
+    width: 10%;
+    top: 30px;
+}
+.spisok {
+    background: rgba(245, 241, 241, 0.411);
+    display: inline-block;
+    height: 600px;
+    width: 85%;
+    font-size: 20px;
+}
+
+.futer {
+    background: rgba(6, 215, 243, 0.247);
+    margin: 5%;
+    height: 15%;
+    width: 90%;
+    border-radius: 25px 25px 0 0;
+    font-size: 20px;
+}

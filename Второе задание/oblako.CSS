@@ -35,20 +35,16 @@ body {
     background: rgba(198, 201, 13, 0.555);
     width: 33%;
     height: 200px;
-    float: left;
-}
-.niz1 {
-    
+   }
+.niz1 {    
     display: inline-block;
     background: rgba(198, 201, 13, 0.555);
     width: 33%;
-    height: 200px;
-    float: center;
+    height: 200px;    
 }
 .niz2 {
     display: inline-block;
     background: rgba(198, 201, 13, 0.555);
     width: 33%;
-    height: 200px;
-    float: right;
+    height: 200px;   
 }
