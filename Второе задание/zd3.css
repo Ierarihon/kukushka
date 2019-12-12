@@ -24,21 +24,23 @@ body {
 }
 .leftbar {
     background: rgba(211, 211, 211, 0.397);
-    position: left;
+    position: fixed;
+    margin;
+    margin-bottom: 0%;
     display: inline-block;
     height: 600px;
     width: 10%;
-    top: 30px;
+       
 }
 .spisok {
     background: rgba(245, 241, 241, 0.411);
-    display: inline-block;
-    height: 600px;
+    height: 700px;
     width: 85%;
     font-size: 20px;
+    margin-left: 15%;    
 }
 
-.futer {
+.futer {    
     background: rgba(6, 215, 243, 0.247);
     margin: 5%;
     height: 15%;
