@@ -1,0 +1,32 @@
+body {
+    background: #FFF;
+    margin: 0 auto;
+    max-width: 960px;
+    max-height: 960px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    }
+
+    .verxl, .cent, .nizr{
+        display: inline-block;
+        width: 400px;
+        height: 400px;
+    }
+
+.verxl {           
+        background: rgb(223, 8, 8);      
+    }
+.cent {
+        position: relative;
+        left: -250px;
+        top: 150px;        
+        background: rgb(13, 151, 13);
+            
+    }
+.nizr {
+        position: relative;
+        left: 300px;
+        top: -100px;
+        background: rgb(6, 37, 175);  
+        z-index: -1;  
+    }
