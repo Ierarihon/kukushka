@@ -151,51 +151,79 @@ header .logo{
 }
 
 .container4{
-    display: inline-block; 
     background: #ffffff;
     height: 340px;
-    text-align: center;
+    text-align: center;    
 }
 
-.container4 .left1{    
-    display:inline-block;
-    
-    top: 100%;
-    width: 400px;
-    margin-top: 65px;
-    padding-left:50px;         
-    /*padding-top: 65px;
-    padding-left: 355px;*/
-} 
+.container4 .item{
+	display: inline-block;
+	width: 30%;
+	min-width: 300px;
+	height: 150px;
+    margin-top: 60px;
+    margin-left: 1%;
+}
 
-.container4 .center1{    
-    display:inline-block;
-    top: 100%;
-    width: 400px;
-    margin-top: 65px;       
-    /*padding-top: 65px;
-    padding-left: 355px;*/
-} 
-
-.container4 .right1{    
-    display:inline-block;
-    top: 100%;
-    width: 400px;
-    margin-top: 65px;       
-    /*padding-top: 65px;
-    padding-left: 355px;*/
-} 
+.container4 .item .quad{
+	display: block;
+	width: 100px;
+    height: 100px; 
+    background: rgba(0,0,0,0.3);   
+    margin: 0 auto;    
+}
 
 .container4 H3{
-    padding-top: 40px;
+    padding-top: 30px;
     font-size: 22px;
     text-align: center;
 }
+
 .container4 p{
     font-size: 15px;
     line-height: 1.4;
-    padding-top: 30px;
+    padding-top: 25px;
     color: #adadad;
 }
 
-/*340px*/
+.container5{
+    display: block;    
+    background-image: url(./images/Layer\ 36.png);
+    background-repeat: no-repeat;
+    height: calc(100vh - 100px);
+    max-height: 700px;
+    text-align: center;       
+    /*background: rgba(50, 60, 78, 0.63);   Не знаю почему но фон не становится прозрачным*/
+}
+
+.container5 H3{
+    color: #ffffff;
+    font-size: 41px;
+    padding-top: 85px;
+}
+
+.container5 p{
+    color: #2d374b;
+    font-size: 15px;
+    padding-top: 30px;
+}
+
+.container5 form .inlog{
+    display: block;
+    width: 555px;
+    height: 65px;
+    color: #525864;  
+    margin-top: 22px;
+    border: 1px solid #999999;
+    border-radius: 3px;
+}
+
+.container5 form .mess{
+    width: 555px;
+    height: 160px;
+    margin-top: 22px;
+    border: 1px solid #999999;
+    border-radius: 3px;
+}
+
+/*555px 65px  22px    560 160*/
