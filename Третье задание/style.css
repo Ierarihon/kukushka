@@ -193,17 +193,13 @@ header .logo{
     height: calc(100vh - 100px);
     max-height: 700px;
     text-align: center; 
-    margin: 0 auto;          
-        
+    margin: 0 auto;        
 }
 .container5 .fon{
-
     opacity: 0.85;
     background: rgba(50, 60, 78, 1);
     height: calc(100vh - 100px);
-    max-height: 700px;
-     
-    
+    max-height: 700px;        
 }
 
 .container5 H3{
@@ -219,17 +215,27 @@ header .logo{
     padding-bottom: 5vh;
 }
 
-.container5 form .inlog{
+.container5 form .inlog2{
     display: block;
+    width: 560px;
+    height: 6vh;        
+    border: 1px solid #999999;
+    border-radius: 3px;
+    margin: 0 auto;
+    background-color: transparent;
+    margin-top: 22px;
+}
+
+.container5 form .inlog{
+    display: inline-block;
     width: 560px;
     height: 6vh;    
     margin-top: 3vh;
     border: 1px solid #999999;
     border-radius: 3px;
     margin: 0 auto;
-    background-color: transparent;        
+    background-color: transparent;
 }
-
 
 
 .container5 form .mess{
@@ -313,7 +319,6 @@ footer .fb{
 
 footer .fb:hover{
     background-color: #3b5998;
-
 }
 
 footer .twit{
