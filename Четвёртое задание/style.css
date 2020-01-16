@@ -19,10 +19,9 @@
     float: right;
 }
 
-.menu{
-    
+.menu{    
     height: 500px;
-    background-color: green;     
+    background-color: rgb(55, 201, 55);   
     margin-top:40px;
     margin-bottom: 40px;    
 }
@@ -32,7 +31,7 @@
     display: inline-block;
     width: 31%;
     height: 250px;
-    background-color: rgb(243, 102, 51);    
+    background-color: rgb(194, 76, 33);    
 }
 
 .blok2{   
@@ -47,6 +46,53 @@
     display: inline-block;
     width:30%;
     height: 250px;
-    background-color: blueviolet;
+    background-color: rgb(182, 62, 178);
     float:right;
+}
+
+@media(max-width: 768px){
+    .head{
+        background-color: orange;
+    }
+    .head2{
+        background-color: rgb(182, 62, 178);
+    }
+    .menu{
+        background-color: red;
+    }
+    .blok1{
+        background-color: rgb(55, 201, 55);
+        width: 49%;
+    }
+    .blok2{
+        display: none;
+    }
+    .blok3{
+        background-color: rgb(0, 36, 241);
+        width: 49%;
+    }
+}
+
+@media(max-width: 425px){
+    .head{
+        width: 100%;
+        background-color: rgb(55, 201, 55);
+    }
+    .head2{
+        display: none;
+    }
+    .menu{
+        background-color: rgb(182, 62, 178);
+        height: 100px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    .blok1{
+        display:none;
+    }
+    .blok3{       
+        background-color: red;
+        width: 100%;
+        height: 400px;
+    }
 }
