@@ -153,16 +153,18 @@ header .logo{
 .container4{
     background: #ffffff;
     height: 340px;
-    text-align: center;    
+    text-align: center; 
+    margin:0 auto;   
 }
 
 .container4 .item{
 	display: inline-block;
-	width: 30%;
-	min-width: 300px;
+	width: 30%;	
 	height: 150px;
     margin-top: 60px;
     margin-left: 1%;
+
+    vertical-align: top;      
 }
 
 .container4 .item .quad{
@@ -175,15 +177,19 @@ header .logo{
 
 .container4 H3{
     padding-top: 30px;
+    padding-bottom: 20px;
     font-size: 22px;
     text-align: center;
 }
 
 .container4 p{
+    display: block;
     font-size: 15px;
-    line-height: 1.4;
-    padding-top: 25px;
+    line-height: 1.3;    
     color: #adadad;
+    width: 90%;
+   padding-bottom: 50px; 
+   
 }
 
 .container5{
@@ -212,7 +218,7 @@ header .logo{
     color: #929294;
     font-size: 15px;
     padding-top: 3vh;
-    padding-bottom: 5vh;
+    padding-bottom: 4vh;
 }
 
 .container5 form .inlog2{
@@ -224,6 +230,7 @@ header .logo{
     margin: 0 auto;
     background-color: transparent;
     margin-top: 22px;
+    margin-bottom: 22px;
 }
 
 .container5 form .inlog{
@@ -239,38 +246,40 @@ header .logo{
 
 
 .container5 form .mess{
+    display: block;    
     width: 555px;
     height: 22vh;
-    margin-top: 3vh;
     border: 1px solid #999999;
     border-radius: 3px;
     background-color: transparent;
     font-size: 15px;
+    margin: 0 auto;
 }
-
 .container5 form .text{
     display: inline-block;
-    position: relative;
-    color: #e0e1e3;
-    left: -130px;
-    top: -6vh;
-    font-size: 15px;    
-    border-radius: 2px;
+    width: 560px;
+    margin-top: 3vh;          
 }
 
-.container5 form .sen{
+.container5 form .text .zaparil{
     display: inline-block;
-    position: relative;
+    color: #e0e1e3;    
+    font-size: 15px;    
+    border-radius: 2px;
+    float: left;
+    margin-top: 10px;
+}
+
+.container5 form .sen{  
+    display: inline-block;  
     width: 140px;
     height: 50px;
     font-size: 18px;
     border: 1px solid #189ae9;
     color: #ffffff;
-    left: 127px;
-    top: -6vh;
     background-color: transparent;
-    margin: 0 auto;
-    border-radius: 3px;  
+    border-radius: 3px;
+    float: right; 
 }
 
 .container5 form .sen:hover{    
@@ -285,7 +294,8 @@ footer{
 
 footer p{    
     font-size: 15;
-    color: #999999;            
+    color: #999999;
+    margin-bottom: 8px;            
 }
 
 footer .foooterbar{
@@ -366,4 +376,143 @@ footer .in:hover{
     background-color: #0976b4;
 }
 
+@media(max-width: 1300px){
+    .center{
+        width:90%;
+    }
+}
 
+@media(max-width: 700px){
+    .container2 i{
+        width: 80%;
+    }
+   
+    .container2 .descr{
+        width: 75%;
+        margin: 3vh auto 0 auto;
+    }
+    .container2 h1{
+        font-size: 100px;
+    }
+    .container3 H2{
+        padding-top: 40px;
+        font-size: 35px;
+    }
+    .container3 .der{
+        padding-top: 30px;
+    }    
+    .container4 .item{
+        margin-top: 30px;
+    }
+    .container4 p{
+        line-height: 1.1;
+    }
+    .container5 form .inlog{
+        width: 80%;
+    }
+    .container5 form .inlog2{
+        width: 80%;
+    }
+    .container5 form .mess{
+        width: 80%;
+    }
+    .container5 form .text{
+        width:80%;       
+    }
+    
+}
+
+@media (max-width: 500px){
+    .container2 h1{
+        font-size: 80px;
+    }  
+    .container4{
+        height: 370px;
+    }  
+    .container4 H3{
+        padding-top: 20px;
+    }
+}
+
+@media (max-width: 425px){
+    .container2 h1{
+        font-size: 62px;
+    }    
+    .container3{
+        height: 450px; 
+    }
+    .container3 H2{
+        padding-top:30px;
+    }
+    .container4 .item .quad{
+        height: 70px;
+        width: 70px;
+    }
+    .container4 .item .quad .log1{
+        height: 70px;
+        width: 70px;
+    }
+    .container4 .item .quad .log2{
+        height: 70px;
+        width: 70px;
+    }    
+    .container4 .item .quad .log3{
+        height: 70px;
+        width: 70px;
+    }
+    .container5 form .sen{
+        width: 80px;
+    }
+    footer .fb{
+        height: 28px;
+        width: 28px;
+    }
+    footer .twit{
+        height: 28px;
+        width: 28px;
+    }
+    footer .googl{
+        height: 28px;
+        width: 28px;
+    }
+    footer .in{
+        height: 28px;
+        width: 28px;
+    }
+    footer p {
+        font-size: 13px;
+    }
+}
+@media (min-height: 1000px){
+    .container2 H1{
+        padding-top: 200px;
+    }
+    .container2 i{
+        margin-top: 30px;
+    }
+    .container2 .descr{
+        margin-top: 30px;
+    }
+    .container2 .btn{
+        margin-top: 100px;
+    }
+    .container5 H3{
+        padding-top:50px
+    }
+    .container5 p{
+        padding-top: 30px;
+        padding-bottom: 40px;
+    }
+    .container5 form .text{
+        margin-top: 30px;
+    }
+    .container5 form .inlog{
+        height: 60px;
+    }
+    .container5 form .inlog2{
+        height: 60px;
+    }
+    .container5 form .mess{
+        height: 220px;
+    }
+}
