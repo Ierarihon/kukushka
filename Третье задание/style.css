@@ -189,7 +189,7 @@ header .logo{
     color: #adadad;
     width: 90%;
    padding-bottom: 50px; 
-   
+   margin: 0 auto;
 }
 
 .container5{
@@ -231,6 +231,8 @@ header .logo{
     background-color: transparent;
     margin-top: 22px;
     margin-bottom: 22px;
+    text-indent: 10px;
+    color: #ffffff;
 }
 
 .container5 form .inlog{
@@ -242,6 +244,8 @@ header .logo{
     border-radius: 3px;
     margin: 0 auto;
     background-color: transparent;
+    text-indent: 10px;
+    color: #ffffff;
 }
 
 
@@ -254,11 +258,14 @@ header .logo{
     background-color: transparent;
     font-size: 15px;
     margin: 0 auto;
+    text-indent: 10px;
+    color: #ffffff;
 }
 .container5 form .text{
     display: inline-block;
-    width: 560px;
-    margin-top: 3vh;          
+    width: 562px;
+    margin-top: 3vh;
+              
 }
 
 .container5 form .text .zaparil{
@@ -321,9 +328,16 @@ footer .fb{
     height: 40px;
     width: 40px;
     border-radius: 2px;
-    background-color: #15a4fa;
-    text-align: center;
+    background-color: #15a4fa;    
     line-height: 40px;
+}
+footer .fb img{
+    position: absolute;
+    margin: auto;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
 }
 
 
@@ -338,8 +352,16 @@ footer .twit{
     width: 40px;
     border-radius: 2px;
     background-color: #15a4fa;
-    text-align: center;
     line-height: 40px;
+}
+
+footer .twit img{
+    position: absolute;
+    margin: auto;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
 }
 
 footer .twit:hover{
@@ -353,8 +375,16 @@ footer .googl{
     width: 40px;
     border-radius: 2px;
     background-color: #15a4fa;
-    text-align: center;
     line-height: 40px;
+}
+
+footer .googl img{
+    position: absolute;
+    margin: auto;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
 }
 
 footer .googl:hover{
@@ -367,9 +397,17 @@ footer .in{
     height: 40px;
     width: 40px;
     border-radius: 2px;
-    background-color: #15a4fa;
-    text-align: center;
+    background-color: #15a4fa;    
     line-height: 40px;
+}
+
+footer .in img{
+    position: absolute;
+    margin: auto;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
 }
 
 footer .in:hover{
@@ -409,15 +447,18 @@ footer .in:hover{
     }
     .container5 form .inlog{
         width: 80%;
+        font-size: 18px;
     }
     .container5 form .inlog2{
         width: 80%;
+        font-size: 18px;
     }
     .container5 form .mess{
         width: 80%;
+        font-size: 18px;
     }
     .container5 form .text{
-        width:80%;       
+        width:82%;       
     }
     
 }
@@ -427,11 +468,23 @@ footer .in:hover{
         font-size: 80px;
     }  
     .container4{
-        height: 370px;
+        height: 830px;
+    }
+    .container4 p{
+        font-size: 20px;
     }  
     .container4 H3{
         padding-top: 20px;
+        font-size: 26px;
     }
+    .container4 .item{
+        display: block;
+        height: 250px;
+        width: 85%;
+        margin: 0 auto;
+        margin-top:25px;
+    }
+
 }
 
 @media (max-width: 425px){
@@ -466,18 +519,22 @@ footer .in:hover{
     footer .fb{
         height: 28px;
         width: 28px;
+
     }
     footer .twit{
         height: 28px;
         width: 28px;
+   
     }
     footer .googl{
         height: 28px;
         width: 28px;
+
     }
     footer .in{
         height: 28px;
         width: 28px;
+        
     }
     footer p {
         font-size: 13px;
