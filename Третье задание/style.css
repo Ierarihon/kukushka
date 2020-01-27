@@ -224,8 +224,8 @@ header .logo{
     flex-wrap: wrap;
     justify-content: space-between; 
     /*align-items: space-around;*/
-    margin-left: 100px;
-    margin-right: 100px;           
+    margin-left: 110px;
+    margin-right: 110px;           
     height: 600px;
     margin-bottom: 50px;    
 }
