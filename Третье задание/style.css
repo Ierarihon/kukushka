@@ -222,17 +222,18 @@ header .logo{
 .flex .flex2{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between; 
+    /*align-items: space-around;*/
     margin-left: 100px;
-    margin-right: 100px;
-    justify-content: space-between;           
+    margin-right: 100px;           
     height: 600px;
-    margin-bottom: 50px;
+    margin-bottom: 50px;    
 }
 
 .flex .flex2 .hov{
     height: 260px;
     width: 350px;
-    z-index: -1;     
+    z-index: -1;         
 } 
 
 
@@ -240,7 +241,7 @@ header .logo{
     background-color: rgb(36, 166, 245);
     height: 260px;
     width: 350px;  
-    z-index: +1;
+    z-index: +1;    
 }
 
 
@@ -470,11 +471,40 @@ footer .in:hover{
     .center{
         width:90%;
     }
+    .flex{
+        height: 1150px;
+    }
+    .flex .flex2{
+        margin-left: 150px;
+        margin-right: 150px;
+        height: 850px;
+    }
+}
+@media(max-width: 1030px){    
+    .flex{
+        height: 2150px;
+        margin-left: 20px;
+        margin-right: 20px;
+        justify-content: center;
+    }
+    .flex .flex2{
+        justify-content: center;
+        height: 1850px;
+        
+    }
 }
 
 @media(max-width: 700px){
     .container2 i{
         width: 80%;
+    }
+    .flex{        
+        margin-left: 0px;
+        margin-right: 0px;
+    }   
+    .flex h3{
+        width: 80%;
+        text-align: center;
     }
    
     .container2 .descr{
@@ -540,6 +570,17 @@ footer .in:hover{
 }
 
 @media (max-width: 425px){
+    .flex{
+        height: 1600px;
+    }
+    .flex .flex2{
+        height: 1300px;
+    }
+    .flex .flex2 .hov{
+        width: 245px;
+        height: 182px;        
+    }
+    
     .container2 h1{
         font-size: 62px;
     }    
