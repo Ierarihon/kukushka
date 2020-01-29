@@ -194,10 +194,11 @@ header .logo{
 
 .flex{
     display: flex;
-    flex-wrap: wrap; 
-    align-items: flex-start;   
+    flex-wrap: wrap;
+    align-items: flex-start;
+    width: 100%;
     height: 900px;
-    background-color: rgb(246, 249, 249);    
+    background-color: rgb(246, 249, 249);
 }
 
 .flex h3{  
@@ -220,29 +221,54 @@ header .logo{
 }
 
 .flex .flex2{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between; 
-    /*align-items: space-around;*/
-    margin-left: 110px;
-    margin-right: 110px;           
-    height: 600px;
-    margin-bottom: 50px;    
+    text-align: center;         
+    height: 600px;   
 }
 
 .flex .flex2 .hov{
-    height: 260px;
-    width: 350px;
-    z-index: -1;         
+    height: 250px;
+    width: 340px;            
 } 
+.flex .flex2 span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.flex .flex2 .lupa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    width:42px;
+    height:42px;
+    border: 1px solid #ffffff;  
+    border-radius: 2px;  
+}
+.flex .flex2 .lupa:hover{
+    background: rgb(21, 164, 250);
+}
+.flex .flex2 .nepon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    width:42px;
+    height:42px;
+    border: 1px solid #ffffff;
+    border-radius: 2px;    
+}
+.flex .flex2 .nepon:hover{
+    background: rgb(21, 164, 250);
+}
 
-
-.flex .flex2 div:hover{
+/*
+.flex .flex2 div:hover .hover-cart{
     background-color: rgb(36, 166, 245);
     height: 260px;
     width: 350px;  
-    z-index: +1;    
-}
+    z-index: +1;        
+}*/
 
 
 .container5{
@@ -467,30 +493,27 @@ footer .in:hover{
     background-color: #0976b4;
 }
 
-@media(max-width: 1300px){
+@media(max-width: 1210px){
     .center{
         width:90%;
     }
     .flex{
-        height: 1150px;
+        height: 1200px;
     }
     .flex .flex2{
-        margin-left: 150px;
-        margin-right: 150px;
-        height: 850px;
+        height: 900px;
+
     }
 }
-@media(max-width: 1030px){    
+@media(max-width: 810px){    
     .flex{
         height: 2150px;
-        margin-left: 20px;
-        margin-right: 20px;
+
         justify-content: center;
     }
     .flex .flex2{
         justify-content: center;
-        height: 1850px;
-        
+        height: 1850px;        
     }
 }
 
@@ -498,10 +521,6 @@ footer .in:hover{
     .container2 i{
         width: 80%;
     }
-    .flex{        
-        margin-left: 0px;
-        margin-right: 0px;
-    }   
     .flex h3{
         width: 80%;
         text-align: center;
@@ -570,15 +589,19 @@ footer .in:hover{
 }
 
 @media (max-width: 425px){
-    .flex{
-        height: 1600px;
+    .flex {
+        height: 1900px;
     }
     .flex .flex2{
-        height: 1300px;
+        height: 1600px;
     }
-    .flex .flex2 .hov{
-        width: 245px;
-        height: 182px;        
+    .flex h3{
+        height: 160px;
+        
+    }
+    .flex .flex2 .pic {
+        width: 26vh;
+        height: 20vh;        
     }
     
     .container2 h1{
