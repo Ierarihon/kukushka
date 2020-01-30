@@ -195,9 +195,9 @@ header .logo{
 .flex{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     align-items: flex-start;
     width: 100%;
-    height: 900px;
     background-color: rgb(246, 249, 249);
 }
 
@@ -205,28 +205,35 @@ header .logo{
     display: flex;
     align-items: flex-end;
     justify-content: center;  
-    width:100%;
-    font-size: 41px;
-    height: 110px;    
+    text-align: center;
+    width:90%;
+    font-size: 41px;   
+    margin-bottom: 20px; 
+    margin-top: 80px;
 }
 
 .flex p{
     display: flex;
     align-items: flex-end;
-    justify-content: center; 
+    justify-content: center;
+    margin-bottom: 60px; 
     font-size:15px;
     width:100%;
-    margin-bottom: 50px;
     color: rgb(152, 152, 152);;       
 }
 
 .flex .flex2{
-    text-align: center;         
-    height: 600px;   
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;     
+    width: 90%;
+    margin-bottom: 60px; 
+
 }
 
-.flex .flex2 .hov{
-    height: 250px;
+.flex .flex2 .pic{
+    height: 235px;
     width: 340px;            
 } 
 .flex .flex2 span{
@@ -261,15 +268,6 @@ header .logo{
 .flex .flex2 .nepon:hover{
     background: rgb(21, 164, 250);
 }
-
-/*
-.flex .flex2 div:hover .hover-cart{
-    background-color: rgb(36, 166, 245);
-    height: 260px;
-    width: 350px;  
-    z-index: +1;        
-}*/
-
 
 .container5{
     display: block;    
@@ -497,34 +495,12 @@ footer .in:hover{
     .center{
         width:90%;
     }
-    .flex{
-        height: 1200px;
-    }
-    .flex .flex2{
-        height: 900px;
-
-    }
 }
-@media(max-width: 810px){    
-    .flex{
-        height: 2150px;
-
-        justify-content: center;
-    }
-    .flex .flex2{
-        justify-content: center;
-        height: 1850px;        
-    }
-}
-
 @media(max-width: 700px){
     .container2 i{
         width: 80%;
     }
-    .flex h3{
-        width: 80%;
-        text-align: center;
-    }
+
    
     .container2 .descr{
         width: 75%;
@@ -589,19 +565,9 @@ footer .in:hover{
 }
 
 @media (max-width: 425px){
-    .flex {
-        height: 1900px;
-    }
-    .flex .flex2{
-        height: 1600px;
-    }
-    .flex h3{
-        height: 160px;
-        
-    }
-    .flex .flex2 .pic {
-        width: 26vh;
-        height: 20vh;        
+    .flex .flex2 .pic .pic-image{
+        width: 100%;
+        height: 90%;        
     }
     
     .container2 h1{
