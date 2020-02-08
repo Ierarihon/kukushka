@@ -1,0 +1,5 @@
+@font-face {
+    font-family: 'Trajanpro Bold';
+    font-weight: 700;
+    src: local("Trajanpro Bold"), url(./TrajanPro-Bold.woff) format(woff);
+  }

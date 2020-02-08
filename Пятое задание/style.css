@@ -1,0 +1,212 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* end reset css*/
+
+.wrapper{
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.center{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header{
+    height: 140px;
+    background-color: #ebecee;    
+}
+
+header .menu ul li a{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+    color: #333333;
+}
+
+header .menu ul{
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+}
+
+header .btn a{
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: #333333;
+    text-transform: uppercase;
+    padding: 25px 50px;
+    background-color: #ffffff;
+    border-radius: 30px;
+}
+
+header .logo, header .btn, header .menu{
+    display: inline-block;
+}
+
+header .logo{
+    margin-top: 68px;
+    margin-left: 3.75%;
+}
+
+header .menu{
+    margin-left: 60%;
+    position: relative;
+    top: -15px;
+}
+
+header .btn{
+    margin-left: 4%;
+    position: relative;
+    top: -15px;
+}
+
+.container2{    
+    background-image: url('./image/font-top.png');
+    height: calc(100vh - 140px);
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-color: #ebecee;
+    background-size: contain;
+    max-height: 950px;
+}
+
+section h3{
+    font-size: 60px;
+    font-weight: bold;
+    padding-left: 12%;
+    padding-top: 325px;
+    color: #222222;
+}
+
+section a{
+    font-size: 14;
+    font-weight: bold;
+    margin-left: 22%;    
+    color: #333333;
+    padding: 25px 95px;
+    border-radius: 30px;
+    background-color: #ffffff;
+    position: relative;
+    top: 80px;
+}
+
+.container3{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;   
+    justify-content: space-between;
+    background-color: #ffffff;
+}
+
+.container3 h4{
+    display: flex;
+    font-size: 30px;
+    font-weight: 300;
+    color: #141311;
+    padding-top: 100px;
+    width: 100%;
+    justify-content: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container3 p{
+    display: flex;
+    font-size: 14px;
+    font-weight: 300;
+    color: #333333;
+    padding-top: 40px;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container3 div{
+    display: flex;        
+    width: 30%;
+    margin-top:45px;
+    justify-content: center;  
+    align-items: center;
+}
+
+
+.container3 div .krug{
+    display: flex; 
+    width: 120px;
+    height: 120px;
+    background-color: lawngreen;
+}
+
+.container div h4{
+    font-size: 22px;
+    font-weight: 300;
+    color: #333333;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container div p{
+    font-size: 14px;
+    font-weight: 300;
+    color: #333333;
+    font-family: 'Nunito', sans-serif;
+}
+
+38
+730
+
+375 260
