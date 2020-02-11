@@ -123,7 +123,7 @@ header .btn{
     max-height: 950px;
 }
 
-section h3{
+.container2 h3{
     font-size: 60px;
     font-weight: bold;
     padding-left: 12%;
@@ -131,7 +131,7 @@ section h3{
     color: #222222;
 }
 
-section a{
+.container2 a{
     font-size: 14;
     font-weight: bold;
     margin-left: 22%;    
@@ -151,11 +151,6 @@ section a{
     flex-wrap: wrap;   
     justify-content: space-between;
     background-color: #ffffff;
-}
-
-.container3 div{
-    width: 380px;
-    margin-top:45px;
 }
 
 .container3 .zag3{
@@ -179,16 +174,40 @@ section a{
     text-align: center;
     justify-content: center;
     font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 45px;
 }
 
+.container3 .flexkul{
+    display: flex;
+    justify-content: space-around;
+}
+/*
+.container3 div .Kvad .Kvad2{
+    width: 380px;
+}*/
+
 .container3 .kvad2{
-display: flex;
-justify-content: center;
-align-items: center;
-height: 260px;   
-width: 380px;
-background-image: url('./image/kvad2.png');
-background-repeat: no-repeat;
+
+}
+
+.container3 .kvad2 .kvad21{
+    background-image: url('./image/kvad2.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 260px;   
+    width: 380px; 
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container3 .flexkul .kvad2 .kvad21 img{
+    opacity: 0;
+}
+
+.container3 .flexkul .kvad2 .kvad21 img:hover{
+    opacity: 1;
 }
 
 .container3 .zag{    
@@ -300,7 +319,8 @@ background-repeat: no-repeat;
 }
 
 .container7{
-    background-color: #e8e9ea;    
+    background-color: #e8e9ea;  
+    padding-bottom: 110px;
 }
 
 .container7 h2{
