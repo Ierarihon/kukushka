@@ -329,7 +329,7 @@ header .btn{
     margin-top: -615px;
     margin-left: -5px;
 }
-/*214-345     98-144*/
+
 .container5 .phone .bel{
     display: flex;
     align-items: center;
@@ -406,6 +406,7 @@ header .btn{
     font-size: 55px;
     text-align: center;    
     margin-bottom: 105px;
+    display: block;
 }
 .container5 .right_content .right_text span{
     color: #000000;
@@ -450,7 +451,7 @@ header .btn{
     background-size: 100%;
     max-height: 1080px;
     width: 100% ;
-    min-height: 1000px;
+    min-height: 100px;
     text-align: center;
 
 }
@@ -460,8 +461,8 @@ header .btn{
     font-family: 'Ubuntu', sans-serif;
     font-weight: 300;
     font-size: 48px;
-    margin-top: 220px;
-    margin-bottom: 120px;
+    margin-top: 18%;
+    margin-bottom: 10%;
 }
 .container6 .center_content .dollar{
     font-size: 30px;    
@@ -718,6 +719,41 @@ header .btn{
     header .menu{
         margin-left: 50%;
     }
+    .container5 .right_content{
+        margin-left: 30px;
+    }
+}
+@media(max-width: 1548px){
+    .container5{        
+        margin-bottom: 160px;
+    }
+    .container5 .right_content .right_icon svg {
+        margin-bottom: 125px;
+    }
+}
+@media(max-width: 1422px){
+    .container5 .right_content h4 {
+        margin-top: 0;
+    }
+    .container5 .right_content h4 {
+        width: 600px;  
+    }
+    .container5 .right_content .ura {
+        width: 600px;    
+    }   
+    .container5 .right_content .right_icon svg {
+        margin-bottom: 85px;
+    }
+    .container5 .right_text .knopka {
+        margin-left: 0px;
+    }
+    .container5 .right_content .right_text p {
+        width: 600px;
+    }
+    /*.container5 .right_content .right_text p {
+        
+    }*/
+    
 }
 
 @media(max-width: 1400px){
@@ -818,7 +854,11 @@ header .btn{
         margin-left: 5px;
     }
 }
-
+@media(max-width: 1020px){
+    .container5 .ramka{
+        width: 100%;
+    }
+}    
 @media(max-width: 992px){
     .container8 .left_content{
         text-align: center;
@@ -836,6 +876,12 @@ header .btn{
     .container8 .left_icons svg {
         margin-left: 20px;
     }
+    .container6 .center_content .knopka2 {
+    margin-bottom: 38px;
+    }
+    .container6 .center_content .knopka {
+        width: 150px;
+    }
 }
 
 @media(max-width: 576px){
@@ -844,12 +890,3 @@ header .btn{
         margin-left: 10px;
 }
 
-
-
-270 205
-
-38
-730
-
-375 260
-.kontainer4
