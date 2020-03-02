@@ -322,20 +322,58 @@ header .btn{
 
 .container5{
     margin-top: 220px;
-    margin-bottom: 220px;
+    margin-bottom: 220px;    
+}
+.container5 .row .left_fon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.container5 .row .phone2{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.container5 .fon5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .container5 .ramka{
     background-image: url("./image/phone.png");
-    background-size: 100%;
-    background-repeat: no-repeat;
+    background-size: 98%;
+    margin-right: 0px;
+    background-repeat: no-repeat;       
+    margin-bottom: 60px;
+    position:relative;
+    display: block;
+    height: 640px;   
+    width: 1035px;    
 }
-.container5 .ramka .planshet {
-    margin-top: 30px;
-    margin-bottom: 80px;
 }
-.container5 .ramka .phone img{
-    margin-top:215px;
-    margin-left: -7px;
+.container5 .ramka .phone2 {   
+    width: 100px;    
+    
+
+}
+
+.container5 .ramka .planshet {   
+    max-width: 100%;    
+    margin-bottom: -20px;
+    padding-top: 20px;
+}
+.container5 .ramka .nuje {   
+    position:absolute;
+    bottom:0;    
+}
+.container5 .ramka .mobile2 {   
+    max-width: 100%;
+    margin-left: -5px;    
+    display: block;
+    position: relative;
+    
+    
 }
 /*.container5 .planshet{
     display: flex;
@@ -556,12 +594,12 @@ header .btn{
 }
 
 .container7 .grids .item1{
-    background-image:url('./image/image5.png');
-    background-size: contain;
+    background-image:url('./image/image5.png');    
     background-repeat: no-repeat;
     grid-column: 1/3;
     grid-row: 1/3;   
     height: 600px; 
+    background-size: cover;
 }
 
 .container7 .grids .item1 span{
@@ -571,7 +609,7 @@ header .btn{
     font-family: 'Ubuntu', sans-serif;
     font-weight: 300;
     font-size: 30px;
-    margin-left:25%;
+    margin-left:17%;
     margin-top: 250px;    
 }
 
@@ -616,7 +654,7 @@ header .btn{
 
 .container7 .grids .item3 div{
     background-image:url('./image/image7.png');
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;    
     height: 205px;
     width: 100%;
@@ -625,7 +663,7 @@ header .btn{
 
 .container7 .grids .item4 div{
     background-image:url('./image/image8.png');
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;    
     height: 205px;
     width: 100%;
@@ -634,7 +672,7 @@ header .btn{
 
 .container7 .grids .item5 div{
     background-image:url('./image/image9.png');
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;    
     height: 205px;
     width: 100%;
@@ -877,6 +915,9 @@ header .btn{
     .container5 .ramka{
         width: 100%;
     }
+    .container5 .ramka .mobile2 {
+        padding-right: 25%;
+    }
 }    
 @media(max-width: 992px){
     .container8 .left_content{
@@ -888,6 +929,11 @@ header .btn{
     }
     .container8 .left_content p {
         margin-bottom: 40px;
+    }
+}
+@media(max-width: 900px){
+    .container5 .ramka {
+        height: 540px;
     }
 }
 
@@ -910,6 +956,9 @@ header .btn{
     .container5 .right_content .right_icon svg {
         margin-bottom: 105px;
     }
+    .container5 .ramka {
+        height: 435px;
+    }
 }
 @media(max-width: 767px){
     .container6 .center_content .knopka2 {
@@ -931,10 +980,24 @@ header .btn{
     .container6 .center_content .knopka {
         margin-bottom: 125px;
     }
-}
-@media(max-width: 576px){
     .container5 .right_content .right_icon svg {
         margin-bottom: 126px;
+    }
+    .container5 .ramka .planshet {   
+        padding-top: 13px;
+    }
+    .container5 .ramka {
+        height: 345px;
+    }
+}
+@media(max-width:450px){
+    .container5 .ramka {
+        height: 280px;
+    }
+}
+@media(max-width:332px){
+    .container5 .right_content .right_icon svg {
+        margin-bottom: 146px;
     }
 }
 
