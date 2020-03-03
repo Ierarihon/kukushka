@@ -94,7 +94,9 @@ header .btn a{
 header .logo, header .btn, header .menu{
     display: inline-block;
 }
-
+header img{
+    margin-top: -25px;
+}
 header .logo{
     margin-top: 68px;
     margin-left: 3.75%;
@@ -119,7 +121,7 @@ header .btn{
     background-repeat: no-repeat;
     background-position-x: 100%;
     background-color: #ebecee;
-    background-size: contain;
+    background-size: cover;
     max-height: 950px;
 }
 
@@ -127,7 +129,7 @@ header .btn{
     font-size: 60px;
     font-weight: bold;
     padding-left: 12%;
-    padding-top: 325px;
+    padding-top: 16%;
     color: #222222;
 }
 
@@ -154,7 +156,7 @@ header .btn{
 }
 
 .container3 .zag3{
-    display: flex;
+    text-align: center;
     font-size: 30px;
     font-weight: 300;
     color: #333333;
@@ -189,12 +191,21 @@ header .btn{
     background-repeat: no-repeat;
     background-size: contain;
     height: 260px;   
-    width: 380px; 
+    max-width: 380px; 
+    width: 100%;
     margin: 0 auto;
 }
 .container3 .kvad{
-    width: 380px;
+    max-width: 380px;
+    width: 100%;
+    margin-left: 15px;
 }
+.container3 .kvad2{
+    max-width: 380px;
+    width: 100%;
+    margin-left: 15px;
+}
+
 
 .container3 .flexkul .kvad2 .kvad21 span{    
     width: 100%;
@@ -294,7 +305,7 @@ header .btn{
 
 .container4 .item7 span{
     margin-left: 12.5%;
-    margin-top: 12%;
+    margin-top: 10%;
 }
 
 .container4 .item7 i{
@@ -650,6 +661,7 @@ header .btn{
     height: 205px;
     width: 100%;
     display: flex;
+    
 }
 
 .container7 .grids .item3 div{
@@ -766,7 +778,7 @@ header .btn{
 
 /*-------------------АДАПТАЦИЯ--------------------*/
 
-@media(max-width: 1800px){
+@media(max-width: 1860px){
     header .menu{
         margin-left: 55%;
     }
@@ -820,9 +832,6 @@ header .btn{
 }
 
 @media(max-width: 1250px){
-    header .menu{
-        margin-left: 36%;
-    }
     .container3 .flexkul{   
         flex-wrap: wrap;    
     }
@@ -830,9 +839,10 @@ header .btn{
         margin-left: 10%;
         margin-right: 10%;
     }
-    .container3 .kvad2{
+   /* .container3 .kvad2{
        width: 380px; 
-    }
+       margin-left: 10px;
+    }*/
 }
 
 @media(max-width: 1200px){
@@ -855,8 +865,9 @@ header .btn{
 
     .container7 .grids{
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr  1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr;
+        
     }
     
     .container7 .grids .item1{
@@ -898,9 +909,6 @@ header .btn{
         grid-column-gap: 0px;
         grid-row-gap: 0px;  
     }
-
-
-    /*вторая часть занятия*/
     .container8 .right_text span{
         font-size: 20px;
     }
@@ -909,6 +917,12 @@ header .btn{
     }
     .container8 .left_icons svg{
         margin-left: 5px;
+    }
+}
+
+@media(max-width: 1060px){
+    header .menu{
+        margin-left: 25%;
     }
 }
 @media(max-width: 1020px){
@@ -935,12 +949,25 @@ header .btn{
     .container5 .ramka {
         height: 540px;
     }
+    header .menu {
+        margin-left: 15%;
+    }
+    .container2 h3 {
+        font-size: 40px;
+    }
+    .container4 .item span{
+        margin-top: 8%;
+    }
+    .container4 .item7 span{
+        margin-top: 4%;
+    }
+    .container4 .item6 span {    
+        margin-top: 65%;
+    }    
 }
 
 @media(max-width: 768px){
-    .container8 .left_icons svg {
-        margin-left: 20px;
-    }
+    
     .container6 .center_content .knopka {
         width: 150px;
     }
@@ -968,6 +995,62 @@ header .btn{
         margin-left: -30px;
         width: 200px;
     }
+    .container8 .left_icons svg {
+        margin-left: 20px;
+    }
+}
+@media(max-width: 690px){
+    .container4{    
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+    }
+    /*.container4 .item5{
+        grid-column: 1/2;
+        grid-row: 6/7;
+        background-size: cover;
+    }*/
+    .container4 .item6{
+        grid-column: 1/2;
+        grid-row: 6/8;
+        background-size: cover;
+    }
+    
+    .container4 .item7{
+        grid-column: 1/2;
+        grid-row: 8/9;
+        background-size: cover;
+        background-position-x: 65%;
+    }
+    .container4 .item img{
+        background-size: cover;
+        width: 100%;
+    }
+    .container4 .item7 p {
+        width: 50%;
+    }
+    .container4 .item span {
+        margin-top: 10%;
+        margin-left: 25%;
+    }
+    .container4 .item p{
+        margin-left: 25%;
+        width: 50%;
+    }
+    .container4 .item i{
+        margin-left: 25%;        
+    }
+    
+    .container4 .item6 span{
+        margin-left: 25%;   
+    }
+    .container4 .item6 i{
+        margin-left: 25%;
+    }
+    .container4 .item6 p{
+        margin-left: 25%;
+        width: 50%; 
+    }
+    
 }
 @media(max-width: 576px){
     .container8 .left_icons svg {        
@@ -989,10 +1072,51 @@ header .btn{
     .container5 .ramka {
         height: 345px;
     }
+    .container3 .zag3{        
+        font-size: 25px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
 }
 @media(max-width:450px){
     .container5 .ramka {
         height: 280px;
+    }    
+    .container3 .kvad img{  
+        width: 100%;
+    }
+    .container3 .kvad{        
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 100%;
+    }
+    .container3 .kvad2{        
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 100%;
+    }
+    /*GREEED*/
+    .container4 .item span {
+        margin-top: 10%;
+        margin-left: 15%;
+    }
+    .container4 .item p{
+        margin-left: 15%;
+        width: 70%;
+    }
+    .container4 .item i{
+        margin-left: 15%;        
+    }
+    
+    .container4 .item6 span{
+        margin-left: 15%;   
+    }
+    .container4 .item6 i{
+        margin-left: 15%;
+    }
+    .container4 .item6 p{
+        margin-left: 15%;
+        width: 70%; 
     }
 }
 @media(max-width:332px){
