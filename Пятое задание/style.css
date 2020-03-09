@@ -773,7 +773,105 @@ header .btn{
     height: 130px;
 }
 
+.container11{    
+    background-image: url('./image/kontainer11.png');
+    height: 435px;    
+    background-size: cover;
+    background-position-x: 50%;
+}
+.container11 .blok11{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+} 
+.container11 h3{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 30px;
+    padding-top: 120px;
+    margin-bottom: 30px;
+}
+.container11 p{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    color: #cccccc;
+    font-size: 22px;
+    margin-bottom: 30px;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.container11 .knopka{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 230px;
+    height: 60px;
+    border-radius: 26px;
+    background-color: #ffffff;   
+}
+.container11 .knopka span{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    color: #414141;
+    font-size: 14px;   
+}
 
+.container12{
+    background-color: #0d0d0d;
+    padding-top: 180px;
+}
+
+.container12 h4{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    margin-bottom: 40px;
+    color: #ffffff;     
+}
+.container12 .left_content p{
+    color: #666666;
+    margin-bottom: 40px;
+}
+.container12 .center_content p{
+    color: #999999;
+}
+/*.container12 .left_content .flexbro a{
+    border: none;
+}*/
+.container12 .left_content .flexbro a svg{
+    background-color: #666666;
+    color: #0d0d0d;
+    height: 16px;
+    margin-right: 50px;
+    margin-bottom: 40px;    
+}
+.container12 p{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    margin-bottom: 20px;
+}                                                      
+.container12 .line{
+    max-width: 1200px;
+    display: block;    
+    height: 1px;
+    width: 100%;
+    background-color: #1d1d1d;
+    margin-top: 80px;
+    margin-bottom: 65px;
+}
+.container12 .text_kr{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-size: 11px;
+    color: #454545;
+    margin-bottom: 130px;
+}
+.container12 .text_kr .text_cvet{
+    color: #493d1e;
+}
 
 
 /*-------------------АДАПТАЦИЯ--------------------*/
@@ -800,7 +898,7 @@ header .btn{
         margin-bottom: 125px;
     }
 }
-@media(max-width: 1422px){
+@media(max-width: 1419px){
     .container5 .right_content h4 {
         margin-top: 0;
     }
@@ -825,7 +923,7 @@ header .btn{
     
 }
 
-@media(max-width: 1400px){
+@media(max-width: 1406px){
     header .menu{
         margin-left: 43%;
     }
@@ -844,11 +942,12 @@ header .btn{
        margin-left: 10px;
     }*/
 }
-
-@media(max-width: 1200px){
+@media(max-width: 1206px){
     header .menu{
         margin-left: 36%;
     }
+}
+@media(max-width: 1200px){
     .container4{    
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
@@ -944,6 +1043,9 @@ header .btn{
     .container8 .left_content p {
         margin-bottom: 40px;
     }
+    .container12 .left_content .flexbro a svg{    
+        margin-right: 18px;
+    }
 }
 @media(max-width: 900px){
     .container5 .ramka {
@@ -985,6 +1087,9 @@ header .btn{
     }
     .container5 .ramka {
         height: 435px;
+    }
+    .container12 .left_content .flexbro a svg{    
+        margin-right: 50px;
     }
 }
 @media(max-width: 767px){
@@ -1136,7 +1241,7 @@ header .btn{
 
 
 
-
+/*
 <div class="bel">
                                         <img class="verx_phone" src="./image/verx_phone.png" alt="verx">
                                         <div class="shadow-lg mb-5 bg-white rounded"><img  class="center_phone" src="./image/mobile.png" alt="center"></div>
@@ -1149,3 +1254,13 @@ header .btn{
                                         </div>     
                                         <p class="text0">pause</span>
                                         </div>
+
+
+
+                                        offset-xl-8
+
+
+ <a href="#"><img  src="./image/12.1.png" alt="feisbook"></a>
+                                <a href="#"><img  src="./image/12.2.png" alt="twittr"></a>
+                                <a href="#"><img  src="./image/12.3.png" alt="koleso"></a>
+                                <a href="#"><img  src="./image/12.4.png" alt="in"></a>*/
