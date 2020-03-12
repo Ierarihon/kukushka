@@ -71,12 +71,18 @@ header .menu ul li a{
     font-size: 16px;
     text-decoration: none;
     color: #333333;
+    
+}
+header .menu ul li{
+    margin-left: 30px;
 }
 
 header .menu ul{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-    width: 350px;
+    /*width: 100%;*/
+    
 }
 
 header .btn a{
@@ -106,6 +112,7 @@ header .menu{
     margin-left: 60%;
     position: relative;
     top: -15px;
+    
 }
 
 header .btn{
@@ -123,13 +130,14 @@ header .btn{
     background-color: #ebecee;
     background-size: cover;
     max-height: 950px;
+    min-height: 700px;
 }
 
 .container2 h3{
     font-size: 60px;
     font-weight: bold;
     padding-left: 12%;
-    padding-top: 16%;
+    padding-top: 335px;
     color: #222222;
 }
 
@@ -1104,7 +1112,9 @@ header .btn{
     }
     .container2 h3 {
         font-size: 40px;
+        padding-top: 235px;
     }
+
     .container4 .item span{
         margin-top: 8%;
     }
@@ -1114,8 +1124,21 @@ header .btn{
     .container4 .item6 span {    
         margin-top: 65%;
     }    
+    .container2 h3 {
+        margin-right: 10%;
+        text-align: center;
+    }
 }
 
+@media(max-width: 800px){
+    header .menu{
+        width: 230px;
+        top: -25px;        
+    }
+    header .menu ul li{
+        margin-bottom: 10px;
+    }
+}
 @media(max-width: 768px){
     
     .container6 .center_content .knopka {
@@ -1137,7 +1160,7 @@ header .btn{
         height: 435px;
     }
     .container12 .left_content .flexbro a svg{    
-        margin-right: 50px;
+        margin-right: 18px;
     }
     .container9 h3 {
         padding-top: 100px;
@@ -1240,6 +1263,11 @@ header .btn{
         background-position-x: 50%;
     }
 }
+@media(max-width: 620px){
+    header .btn{
+        margin-left: 33%;
+    }
+}
 @media(max-width: 576px){
     .container8 .left_icons svg {        
         display: block;
@@ -1274,8 +1302,23 @@ header .btn{
     .container9 .item p {
         margin-bottom: 100px;
     }
+    header .menu{        
+        top: -25px;        
+    }
+    header .btn{
+        margin-left: 33%;
+    }
 }
 @media(max-width:450px){
+    header .menu {        
+        width: 180px;
+    }
+    /*.container2 a {
+        
+    }*/.container2 a {
+    padding: 25px 65px;
+    margin-left: 18%;
+    }
     .container5 .ramka {
         height: 280px;
     }    
