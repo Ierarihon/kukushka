@@ -660,8 +660,7 @@ header .btn{
     background-repeat: no-repeat;
     height: 205px;
     width: 100%;
-    display: flex;
-    
+    display: flex;    
 }
 
 .container7 .grids .item3 div{
@@ -772,6 +771,46 @@ header .btn{
     padding-top: 30px;
     height: 130px;
 }
+.container9{
+    background-image: url('./image/Fon100.png');
+    
+    max-height: 1080px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.container9 h3{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-size: 48px;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 250px;
+    margin-bottom: 115px;
+}
+.container9 .item span{
+    font-size: 80px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    color: #c89d28;
+}
+.container9 .item p{
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    color: #dfdfdf;
+    margin-top: 30px;
+    margin-bottom: 120px;
+}
+.container9 .description{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    color: #999999;
+    width: 42%;
+    margin: 0 auto;    
+    padding-bottom: 350px;
+}
 
 .container11{    
     background-image: url('./image/kontainer11.png');
@@ -840,12 +879,14 @@ header .btn{
 /*.container12 .left_content .flexbro a{
     border: none;
 }*/
-.container12 .left_content .flexbro a svg{
-    background-color: #666666;
-    color: #0d0d0d;
+.container12 .left_content .flexbro a svg{    
+    color: #666666;
     height: 16px;
     margin-right: 50px;
     margin-bottom: 40px;    
+}
+.container12 .left_content .flexbro a svg:hover{    
+    color: #000000;
 }
 .container12 p{
     font-family: 'Ubuntu', sans-serif;
@@ -1002,12 +1043,7 @@ header .btn{
     .container3 .flexkul{
         display: flex;
         justify-content: space-around;
-    }
-
-    .container7 .grids{     
-        grid-column-gap: 0px;
-        grid-row-gap: 0px;  
-    }
+    }  
     .container8 .right_text span{
         font-size: 20px;
     }
@@ -1016,6 +1052,15 @@ header .btn{
     }
     .container8 .left_icons svg{
         margin-left: 5px;
+    }
+    .container7 .grids .item1 span {
+        width: 50%;
+        text-align: center;
+        margin-left: 25%;
+        margin-top: 150px;
+    }
+    .container9 .description {
+        width: 60%;
     }
 }
 
@@ -1046,6 +1091,9 @@ header .btn{
     .container12 .left_content .flexbro a svg{    
         margin-right: 18px;
     }
+    .container9 .item span{
+        font-size: 65px;
+    }    
 }
 @media(max-width: 900px){
     .container5 .ramka {
@@ -1091,6 +1139,9 @@ header .btn{
     .container12 .left_content .flexbro a svg{    
         margin-right: 50px;
     }
+    .container9 h3 {
+        padding-top: 100px;
+    }
 }
 @media(max-width: 767px){
     .container6 .center_content .knopka2 {
@@ -1109,11 +1160,7 @@ header .btn{
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
     }
-    /*.container4 .item5{
-        grid-column: 1/2;
-        grid-row: 6/7;
-        background-size: cover;
-    }*/
+
     .container4 .item6{
         grid-column: 1/2;
         grid-row: 6/8;
@@ -1155,7 +1202,43 @@ header .btn{
         margin-left: 25%;
         width: 50%; 
     }
-    
+    .container7 .grids{    
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+    .container7 .grids .item1{
+        grid-column: 1/2;
+        grid-row: 1/3;
+    }
+
+    .container7 .grids .item2{
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+
+    .container7 .grids .item3{
+        grid-column: 1/2;
+        grid-row: 4/5;        
+    }
+
+    .container7 .grids .item4{
+        grid-column: 1/2;
+        grid-row: 5/6; 
+    }
+
+    .container7 .grids .item5{
+        grid-column: 1/2;
+        grid-row: 6/7; 
+    }
+    .container7 .grids .item1 span {
+        width: 70%;        
+        margin-left: 15%;
+        margin-right: 15%;
+        
+    }
+    .container7 .grids .item1{
+        background-position-x: 50%;
+    }
 }
 @media(max-width: 576px){
     .container8 .left_icons svg {        
@@ -1181,6 +1264,15 @@ header .btn{
         font-size: 25px;
         margin-left: 10%;
         margin-right: 10%;
+    }
+    .container9 .item span {
+        font-size: 55px;
+    }
+    .container9 .description {
+        width: 80%;
+    }
+    .container9 .item p {
+        margin-bottom: 100px;
     }
 }
 @media(max-width:450px){
