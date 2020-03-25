@@ -1,0 +1,201 @@
+$color_new: #141311;
+$color_new2: #ffffff;
+$color_new3: #000000;
+$color_new4: #333333;
+$font_U: 'Ubuntu', sans-serif;
+$font_N: 'Nunito', sans-serif;
+
+
+@mixin text {
+    font-family: $font_U;
+    font-weight: 300;
+    font-size:30px;
+    display: block;
+    width:50%;
+}
+@mixin text_p {
+    font-family: $font_N;
+    font-family: 300;
+    color: $color_new4;
+    font-size: 14px;
+}
+@mixin line_i {
+    width: 35px;
+    height: 2px;
+    display: block;
+    margin-bottom: 27px;   
+    margin-top: 12px;  
+}
+
+.container4{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.container4 .item img{
+    max-width: 100%;
+}
+.container4 .item6{
+    background-image: url('./image/image3.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    grid-column: 3/4;
+    grid-row: 2/4;
+}
+.container4 .item7{
+    background-image:url('./image/image4.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    grid-column: 1/3;
+    grid-row: 3/4;
+}
+.container4 .item span{
+    @include text;
+    color: $color_new;    
+    margin-left: 25%;
+    margin-top: 20%;
+}
+.container4 .item6 span{
+    @include text;   
+    color: $color_new2;
+    margin-left: 25%;
+    margin-top: 80%;
+}
+.container4 .item7 span{
+    @include text;
+    color: $color_new;    
+    margin-left: 12.5%;
+    margin-top: 10%;
+}
+.container4 .item i{
+    @include line_i;  
+    margin-left: 25%;   
+    background-color: $color_new3;
+}
+.container4 .item6 i{
+    @include line_i;  
+    margin-left: 25%;       
+    background-color: $color_new2;       
+}
+.container4 .item7 i{
+    @include line_i;
+    margin-left: 12.5%;
+    background-color: $color_new3;        
+}
+.container4 .item p{  
+    @include text_p;      
+    margin-left: 25%;    
+    width: 50%;
+}
+.container4 .item6 p{
+    @include text_p;      
+    margin-left: 25%;    
+    width: 50%;
+    color: $color_new2;
+}
+.container4 .item7 p{      
+    @include text_p;     
+    margin-left: 12.5%;
+    margin-top: 12px; 
+    width: 25%;
+}
+
+@media(max-width: 1200px){
+    .container4{    
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    }
+    .container4 .item6{
+        grid-column: 2/3;
+        grid-row: 3/5;
+    }
+    
+    .container4 .item7{
+        grid-column: 1/3;
+        grid-row: 5/6;
+    }
+}    
+@media(max-width: 900px){
+    .container4 .item span{
+        margin-top: 8%;
+    }
+    .container4 .item7 span{
+        margin-top: 4%;
+    }
+    .container4 .item6 span {    
+        margin-top: 65%;
+    }    
+}
+@media(max-width: 690px){
+    .container4{    
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+    }
+
+    .container4 .item6{
+        grid-column: 1/2;
+        grid-row: 6/8;
+        background-size: cover;
+    }
+    
+    .container4 .item7{
+        grid-column: 1/2;
+        grid-row: 8/9;
+        background-size: cover;
+        background-position-x: 65%;
+    }
+    .container4 .item img{
+        background-size: cover;
+        width: 100%;
+    }
+    .container4 .item7 p {
+        width: 50%;
+    }
+    .container4 .item span {
+        margin-top: 10%;
+        margin-left: 25%;
+    }
+    .container4 .item p{
+        margin-left: 25%;
+        width: 50%;
+    }
+    .container4 .item i{
+        margin-left: 25%;        
+    }
+    
+    .container4 .item6 span{
+        margin-left: 25%;   
+    }
+    .container4 .item6 i{
+        margin-left: 25%;
+    }
+    .container4 .item6 p{
+        margin-left: 25%;
+        width: 50%; 
+    }
+}
+
+@media(max-width:450px){
+    .container4 .item span {
+        margin-top: 10%;
+        margin-left: 15%;
+    }
+    .container4 .item p{
+        margin-left: 15%;
+        width: 70%;
+    }
+    .container4 .item i{
+        margin-left: 15%;        
+    }
+
+    .container4 .item6 span{
+        margin-left: 15%;   
+    }
+    .container4 .item6 i{
+        margin-left: 15%;
+    }
+    .container4 .item6 p{
+        margin-left: 15%;
+        width: 70%; 
+    }
+}
